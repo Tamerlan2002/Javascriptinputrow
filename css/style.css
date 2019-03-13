@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+p{
+    font-weight: bold;
+    display: inline-block;
+}
+#inputRow{
+    border-radius: 3px;
+    border: 2px solid blue  
+}
+#inputRow:focus{
+    border: 2px solid red;
+    outline: none;
+}
